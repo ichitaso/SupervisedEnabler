@@ -1,0 +1,2 @@
+# SupervisedEnabler
+ Enable Supervised Mode

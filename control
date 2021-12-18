@@ -1,0 +1,13 @@
+Author: ichitaso
+Maintainer: ichitaso
+Name: SupervisedEnabler
+Package: com.ichitaso.spenabler
+Depends: firmware (>= 13.0)
+Section: System
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Enable Supervised Mode
+Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
+Homepage: https://ichitaso.com/
+dev: ichitaso
+Tag: purpose::extension, compatible::ios13, compatible::ios14

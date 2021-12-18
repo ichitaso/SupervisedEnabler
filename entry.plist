@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>com.ichitaso.iconanus</string>
+		<key>icon</key>
+		<string>IconAnus.png</string>
+		<key>key</key>
+		<string>enabled</string>
+		<key>label</key>
+		<string>IconAnus</string>
+		<key>PostNotification</key>
+		<string>com.ichitaso.iconanus.prefs</string>
+	</dict>
+</dict>
+</plist>
