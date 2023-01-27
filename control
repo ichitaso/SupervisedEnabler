@@ -4,10 +4,10 @@ Name: SupervisedEnabler
 Package: com.ichitaso.spenabler
 Depends: firmware (>= 11.0)
 Section: System
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Description: Enable Supervised Mode
 Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
 Homepage: https://ichitaso.com/
 dev: ichitaso
-Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
