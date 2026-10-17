@@ -1,11 +1,18 @@
 DEBUG = 0
-GO_EASY_ON_ME := 1
 FINALPACKAGE = 1
 
-ARCHS = arm64 arm64e
-export PREFIX = $(THEOS)/toolchain/Xcode11.xctoolchain/usr/bin/
+ARCHS = arm64
 
-THEOS_DEVICE_IP = 192.168.0.13#localhost -p 2222
+THEOS_DEVICE_IP = localhost -p 2222
+
+ifeq ($(THEOS_PACKAGE_SCHEME),rootless)
+TARGET = iphone:16.5:15.0
+else ifeq ($(THEOS_PACKAGE_SCHEME),roothide)
+TARGET = iphone:16.5:15.0
+else
+export PREFIX = $(THEOS)/toolchain/Xcode11.xctoolchain/usr/bin/
+TARGET = iphone:14.5:11.0
+endif
 
 TOOL_NAME = postinst postrm
 postinst_FILES = postinst.m
